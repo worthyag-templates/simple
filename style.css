@@ -8,9 +8,20 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
     background-color: rgb(61, 67, 169);
     color: #fff;
-    /* text-align: center; */
+    flex-direction: column;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 16px;
 }
 
 #github-name {
